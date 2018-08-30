@@ -1,0 +1,49 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .jumbotrom {
+        padding: 0;
+    }
+
+/*Timeline Header*/
+    .col-md-3,
+    .col-md-9 h3 {
+        color: #3F4040;
+        font-weight: 500;
+        font-size:1.5em;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .jumbotrom {
+        padding: 0;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    ...
+}

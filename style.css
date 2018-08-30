@@ -1,16 +1,18 @@
 body {
     padding: 0;
     margin: 0;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .Title {
     color: white;
-    padding: 7em;
+    padding: 3em;
     text-align: center;
 }
 
 .Title h1 {
     font-weight: 700;
+    font-size: 6vw;
 }
 
 
@@ -23,16 +25,15 @@ body {
 }
 
 
-/*The one who gave voice to millons*/
 
-.subtitle {
-    letter-spacing: 8px;
-    text-decoration: underline;
-}
+
+/*The one who gave voice to millons*/
 
 h2 {
     text-align: center;
+    font-size: 3.5vw;
 }
+
 
 
 
@@ -40,13 +41,16 @@ h2 {
 
 p {
     line-height: 1.6em;
+    text-align: justify;
 }
+
+
 
 
 /*Image*/
 
 #image-div {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -54,18 +58,39 @@ p {
     align-items: center;
 }
 
+#image {
+    width: 100%;
+    height: auto;
+}
+
+
+
 
 /*Timeline columns*/
+
+.timeline {
+    padding: 1.5em 3.5em 0 3.5em;
+}
+
 
 .col-md-3,
 .col-md-9 h3 {
     color: #3F4040;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.row {
+    padding-bottom: 1.5em;
 }
 
 .card {
     background-color: #3F4040;
     color: white;
+    width: 20rem;
+}
+
+.blockquote-footer {
+    color: #f8f9fa;
 }
 
 .moreinfo {
