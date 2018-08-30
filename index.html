@@ -9,31 +9,29 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="Project Description" content="FreeCodeCamp Tribute Page">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Handlee|Kaushan+Script|Marck+Script" rel="stylesheet">
     </head>
     <main>
         <header class="Title jumbotron">
-            <h1 id="Title" class="display-1">Alexander Graham Bell</h1>
+            <h1 id="title" class="display-1">Alexander Graham Bell</h1>
             <h2>The one who gave voice to millions</h2>
             <p>
         </header>
-        <section>
-              <!-- <div class="container"> -->
-            <div id="image-div">
-                <figure>
-                    <img id="image" src="https://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/204/tdih-march07-v2-HD_still_624x352.jpg" alt="Picture of Alexander Graham making a call">
-                    <figcaption id="image-caption"><em>Alexander Graham Bell, who patented the telephone in 1876.20-km</em></figcaption>
-                </figure>
-            </div>
-            <h2 class="subtitle">Time line of Alexander Graham Bell's life</h2>
-        </section>
-
-        <section class="timeline container">
+        <div id="image-div">
+            <figure>
+                <img id="image" src="https://www.history.com/s3static/video-thumbnails/AETN-History_VMS/21/204/tdih-march07-v2-HD_still_624x352.jpg" alt="Picture of Alexander Graham making a call">
+                <figcaption id="image-caption"><em>Alexander Graham Bell, who patented the telephone in 1876.20-km</em></figcaption>
+            </figure>
+        </div>
+        <h2 id="subtitle">Time line of Alexander Graham Bell's life</h2>
+        <section id="tribute-info" class="timeline container">
             <div class="row">
                 <div class="col-md-3">
                     <h3>March 3, 1847</h3>
@@ -59,7 +57,7 @@
                     <h3>1865</h3>
                 </div>
                 <div class="col-md-9">
-                    <h3>Bell family moves to England. . </h3>
+                    <h3>Bell family moves to England. </h3>
                     <p>The Bell family moved to London but Aleck, as he was called, stayed in Scotland and became a teacher of elocution and music when he was 16..</p>
                 </div>
             </div>
@@ -178,7 +176,7 @@
             <!--Endoftimeline-->
             <!--Quote-->
             <!-- <div class="container"> -->
-            <div id= "blockquote"class="card" >
+            <div id="blockquote" class="card">
                 <div class="card-body">
                     <blockquote class="blockquote">
                         <p class="card-text">
@@ -189,15 +187,14 @@
                 </div>
             </div>
             <!--Endofcard-->
-            <br>
             <p class="lead moreinfo">
-                If you have time, you should read more about this incredible human being on <a href="http://www.softschools.com/timelines/alexander_graham_bell_timeline/129/">Alexander Graham Bell Timeline</a>
+                If you have time, you should read more about this incredible human being on <a id="tribute-link" href="http://www.softschools.com/timelines/alexander_graham_bell_timeline/129/" target="_blank">Alexander Graham Bell Timeline</a>
             </p>
             <!-- </div> -->
         </section>
     </main>
-    <footer class="bottompage">
-        <p>Coded by Carlos Sanchez</p>
+    <footer id="footer">
+        <p id="footer-content">Coded by <span> Carlos Sanchez</span></p>
     </footer>
 </body>
 
